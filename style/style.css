@@ -58,6 +58,27 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 3px;
 }
-#butto .number {
+#button .number {
     background-color: #f3f3f3;
+}
+#button button:hover {
+    background-color: #bababa;
+    border-color: #999;
+}
+#equal-btn {
+    grid-column: span 2;
+    background-color: #75a5cb;
+}
+#equal-btn:hover {
+    background-color: #3a91b8;
+}
+
+footer {
+    color: white;
+    background-color: #3a91b8;
+    position: absolute;
+    top: 100%;
+    transform: translate(0%, -100%);
+    width: 100%;
+    text-align: center;
 }
