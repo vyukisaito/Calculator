@@ -54,5 +54,10 @@ body {
     cursor: pointer;
 }
 #button {
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 3px;
+}
+#butto .number {
+    background-color: #f3f3f3;
 }
